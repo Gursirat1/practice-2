@@ -1,0 +1,605 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+}
+
+header ol li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+}
+
+header ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-size: 60px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.left{
+    margin-left: -500px;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.button{
+border: none;
+margin-right: 10px;
+background-color: transparent;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(66, 98, 255);
+}
+
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.idea{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#idea h1{
+    width: 350px;
+    font-size: 48px;
+}
+
+#idea p{
+    width: 350px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#email{
+    padding:10px 65px 10px 70px;
+    border-radius: 15px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+
+.button2{
+    padding: 10px 105px 10px 105px; 
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgba(66, 98, 255, 1);
+    color: white;
+    border: none;
+}
+
+#idea img{
+    margin-top: 40px;
+}
+
+.brands{
+    margin-top: 100px;
+}
+
+.brands p{
+    text-align: center;
+    font-size: 18px;
+}
+
+#brands{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contain{
+    margin-top: 170px;
+}
+
+.contain h1{
+    text-align: center;
+}
+
+.artical1{
+    width: 300px;
+}
+
+#contain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.artical1 h2{
+    color: rgba(5, 0, 56, 1);
+    margin-bottom: 30px;
+}
+
+.button3{
+    margin-left: 45%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color:rgba(66, 98, 255, 1);
+    color: white;
+}
+
+.work{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#work{
+    margin-top: 150px;
+}
+
+#work h1{
+    width: 500px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#work p{
+    width: 300px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.button4{
+    border: none;
+    color:rgba(66, 98, 255, 1);
+    background-color: white;
+    font-size: 18px;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.connect{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#connect h1{
+    font-size: 48px;
+}
+
+#connect p{
+    width: 350px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#connect{
+    margin-top: 70px;
+}
+
+.button5{
+    border: none;
+    color:rgba(66, 98, 255, 1);
+    background-color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.section{
+    margin-top: 80px;
+}
+
+#built{
+    display: flex;
+    justify-content: space-between;
+}
+
+.built{
+    margin-top: 40px;
+}
+
+.built h1{
+    font-size: 48px;
+    margin-left: 200px;
+}
+
+#built ol li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#built ol{
+    width: 1060px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#built ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1060px;
+    margin-left: 170px;
+}
+
+#box-1{
+    margin-top: 40px;
+}
+
+#box-1 p{
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button6{
+    border: none;
+    color:rgba(66, 98, 255, 1);
+    background-color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+#team-nav ol li{
+    display: inline;
+    padding: 10px;
+}
+
+.teams{
+    margin-top: 40px;
+}
+
+.teams h1{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#team-nav ol{
+    margin-left: 150px;
+
+}
+
+#team-nav ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.teams1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 1100px;
+    margin-left: 170px;
+}
+
+#teams1 p{
+ margin-top: 10px;
+ width: 200px;
+}
+
+.button7{
+    border: none;
+    color:rgba(66, 98, 255, 1);
+    background-color: white;
+    font-size: 18px;
+    margin-top: 40px; 
+}
+
+.button7 a{
+    text-decoration: none;
+}
+
+#teams1 img{
+    margin-top: 40px;
+}
+
+#small1 h1{
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 170px;
+}
+
+#small1 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#small2{
+    display: flex;
+    justify-content: center;
+}
+
+.small{
+    width: 100%;
+    height: 900px;
+    background-color:  rgba(255, 208, 47, 1);
+}
+
+.loved h1 {
+text-align: center;
+font-size: 48px;
+margin-top: 90px;
+}
+
+.button8{
+padding: 10px 40px 10px 40px;
+border-radius: 20px;
+color: #4262FF;
+border: 1px solid #4262FF;
+background-color: white;
+margin-top: 15px;
+}
+
+.button8 a{
+    text-decoration: none;
+}
+
+#loved{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.button8{
+    margin-left: 650px
+}
+
+.loved1{
+    width: 300px;
+    padding-top: 50px;
+}
+
+.loved2{
+    width: 250px;
+    padding-top: 50px;
+}
+
+.loved3{
+    width: 250px; 
+    padding-top: 50px;
+}
+
+.photo{
+    padding-top: 40px;
+}
+
+.photo1{
+    padding-top: 80px;
+}
+
+.photo2{
+    padding-top: 60px;
+}
+
+.loved1 img{
+    padding-bottom: 20px;
+}
+
+.loved2 img{
+    padding-bottom: 20px;
+}
+
+.loved3 img{
+    padding-bottom: 20px;
+}
+
+.join{
+    width: 1170px;
+    height: 400px;
+    background-color:rgba(5, 0, 56, 1);
+    color: white;
+    margin-top: 50px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+.join h1{
+    padding-left: 350px;
+    padding-top: 150px;
+    font-size: 48px;
+}
+
+.join p{
+    padding-left: 450px;
+    padding-top: 10px;
+}
+
+#join{
+    padding-left: 490px;
+}
+
+.button9{
+    margin-left: 500px;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    background: rgba(66, 98, 255, 1);
+    border: none;
+    border-radius: 20px;
+}
+
+.button9 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 686px;
+    background-color: rgba(5, 0, 56, 1);
+    color: white;
+}
+
+.order-list1 ol li{
+    list-style: none;
+}
+
+.order-list1 h2{
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.order-list2 h2{
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.order-list3 h2{
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.order-list4 h2{
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.order-list5 h2{
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+
+.order-list1 ol li a{
+    text-decoration: none;
+    color: white;
+}
+.order-list2 ol li{
+    list-style: none;
+}
+
+.order-list2 ol li a{
+    text-decoration: none;
+    color: white;
+}
+.order-list3 ol li{
+    list-style: none;
+}
+
+.order-list3 ol li a{
+    text-decoration: none;
+    color: white;
+}
+.order-list4 ol li{
+    list-style: none;
+}
+
+.order-list4 ol li a{
+    text-decoration: none;
+    color: white;
+}
+.order-list5 ol li{
+    list-style: none;
+}
+
+.order-list5 ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+#order-list{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;line-height: 30px;
+    margin-left: -70px
+}
+
+#button{
+    margin-left: 35px;
+    margin-top: 15px;
+    border: none;
+    background-color: transparent;
+}
+#button a{
+    color: white;
+}
+
+#button1{
+    margin-left: 35px;
+    margin-top: 15px;
+    border: none;
+    background-color: transparent;
+}
+#button1 a{
+    color: white;
+}
+
+.vertical-line{
+    width: 96%;
+    height: 1px;
+    color: white;
+    border-top: solid;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+#last ol li{
+    list-style: none;
+    display: inline;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.last-img img{
+   padding: 10px; 
+}
+
+#last ol li{
+    padding: 10px;
+}
+
+#last ol{
+    margin-left: -400px;
+    margin-top: 10px;
+}
+
+#last1{
+    margin-right: 20px;
+}
